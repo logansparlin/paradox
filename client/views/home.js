@@ -17,7 +17,6 @@ Template.home.rendered = function() {
 	var eventTime= moment('2015-04-22').unix(); // Timestamp - Sun, 21 Apr 2013 13:00:00 GMT
 	var currentTime = moment().unix(); // Timestamp - Sun, 21 Apr 2013 12:30:00 GMT
 	var diffTime = eventTime - currentTime;
-	console.log(diffTime)
 	var duration = moment.duration(diffTime*1000, 'milliseconds');
 	var interval = 1000;
 

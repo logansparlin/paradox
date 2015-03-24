@@ -9,6 +9,7 @@ boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
 chuangbo:cookie@1.1.0
+datariot:ganalytics@0.2.1
 ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
