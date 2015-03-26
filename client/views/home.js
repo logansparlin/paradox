@@ -17,8 +17,8 @@ Template.home.rendered = function() {
 	var eventTime= moment('2015-04-22').unix(); // Timestamp - Sun, 21 Apr 2013 13:00:00 GMT
 	var currentTime = moment().unix(); // Timestamp - Sun, 21 Apr 2013 12:30:00 GMT
 	var diffTime = eventTime - currentTime;
-	var duration = moment.duration(diffTime*10, 'milliseconds');
-	var interval = 10;
+	var duration = moment.duration(diffTime*1000, 'milliseconds');
+	var interval = 1000;
 
 	function pad(number) {
 		return(number< 100 ? '0' : '') + number
@@ -32,7 +32,7 @@ Template.home.rendered = function() {
 	    Session.set('hoursLeft', duration.hours())
 	    Session.set('minutesLeft', duration.minutes())
 	    Session.set('secondsLeft', duration.seconds() + 1)
-	    Session.set('millisecondsLeft', pad(milliseconds).slice(-3))
+	    // Session.set('millisecondsLeft', pad(milliseconds).slice(-3))
 	}, interval);
 };
 
@@ -48,8 +48,5 @@ Template.home.helpers({
 	},
 	seconds: function() {
 		return Session.get('secondsLeft')
-	},
-	milliseconds: function() {
-		return Session.get('millisecondsLeft')
 	}
 })
