@@ -1,0 +1,83 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "3acdafa419bd8a5e0a5de7257530cbd90704b775.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/3acdafa419bd8a5e0a5de7257530cbd90704b775.js",
+      "size": 446325,
+      "hash": "3acdafa419bd8a5e0a5de7257530cbd90704b775"
+    },
+    {
+      "path": "1bf2a2ecf0a7a444405c9ef9b696d725a8fdc28e.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/1bf2a2ecf0a7a444405c9ef9b696d725a8fdc28e.css?meteor_css_resource=true",
+      "size": 24329,
+      "hash": "1bf2a2ecf0a7a444405c9ef9b696d725a8fdc28e"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot",
+      "size": 56006,
+      "hash": "0183979056f0b87616cd99d5c54a48f3b771eee6"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg",
+      "size": 287007,
+      "hash": "cd980eab6db5fa57db670cb2e4278e67e1a4d6c9"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf",
+      "size": 112160,
+      "hash": "6225ccc4ec94d060f19efab97ca42d842845b949"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff",
+      "size": 65452,
+      "hash": "7d65e0227d0d7cdc1718119cd2a7dce0638f151c"
+    },
+    {
+      "path": "app/img/grain.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/grain.jpg",
+      "size": 661963,
+      "hash": "f9661bea1b8193de7c571de65c1c5d744805e266"
+    },
+    {
+      "path": "app/img/grain.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/grain.png",
+      "size": 422253,
+      "hash": "e86ab1d2b7dd61d63f4004e547a605cbddf136dc"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "10beb08589e4e8fe38bda3101d0c877a50935d95"
+    }
+  ]
+}
